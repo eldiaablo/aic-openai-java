@@ -1,0 +1,11 @@
+rootProject.name = 'openai-java'
+
+include 'api'
+include 'client'
+include 'service'
+
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+    }
+}
